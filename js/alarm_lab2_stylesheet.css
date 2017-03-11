@@ -1,0 +1,25 @@
+
+.heading_current_time_container {
+  height: auto;
+  width: 80vw;
+	font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20vh;
+  text-align:center;
+  margin: auto;
+  border: 1vw groove white;
+  color: white;
+  text-shadow: 1vh 1vh 2vh black, 0 0 1em white;
+
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+  background-image: url("1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
