@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="Komanitskiy KV-41" />
 
-	<link rel="stylesheet" type="text/css" href="js/alarm_lab2_stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="js/alarm_lab2_stylesheet.css"/>
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 
 	<title>Alarm</title>
@@ -16,9 +18,35 @@
 		<div class="current_time"><span class="current_time_s"></span></div>
 	</div>	
 
-	<div class="alarm_diaolgue_window">
+	<div class="set_alarm_diaolgue_window">
+
+		<div class="button_container">
+			<button class="set_button">SET</button>
+			<button class="reset_button">RESET</button>
+		</div>
+
+		
+	
+	</div>
 
 	</div>
+		<div class="input_form">
+			<span class="input_please">Input alarm in "00:00:00" format: </span>
+			<input class="ass" type="text"/>
+		</div>
+	<div class="ac_dec_but">	
+		<button class="accept_alarm">ACCEPT</button>
+		<button class="decline_alarm">DECLINE</button>
+	</div>	
+
+	<div class="alarted">
+		<span class="alarted_text"></span>
+		<button class="back_to_main">OK</button> 
+	</div>
+	
+
 	<script type="text/javascript" src="js/alarm_lab2_js.js"></script>
+
+
 </body>
 </html>
